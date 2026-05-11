@@ -1,0 +1,24 @@
+[submodule "projects/project_1"]
+	path = projects/project_1
+	url = https://github.com/Hakim-elazzouzi/project1_single_gps_satellite_analysis
+[submodule "projects/project_2"]
+	path = projects/project_2
+	url = https://github.com/Hakim-elazzouzi/project2_all_gps_constellation_analysis
+[submodule "projects/project_3"]
+	path = projects/project_3
+	url = https://github.com/Hakim-elazzouzi/project3_multi_constellation_gnss_one_satellite_per_system
+[submodule "projects/project_4"]
+	path = projects/project_4
+	url = https://github.com/Hakim-elazzouzi/project4_gnss_pseudorange_vs_carrier_phase_analysis
+[submodule "projects/project_5"]
+	path = projects/project_5
+	url = https://github.com/Hakim-elazzouzi/project5_gnss_constellation_summary_analysis
+[submodule "projects/project_6"]
+	path = projects/project_6
+	url = https://github.com/Hakim-elazzouzi/project6_gnss_ionospheric_delay_analysis
+[submodule "projects/project_7"]
+	path = projects/project_7
+	url = https://github.com/Hakim-elazzouzi/project7_gnss_multipath_analysis
+[submodule "projects/project_8"]
+	path = projects/project_8
+	url = https://github.com/Hakim-elazzouzi/project8_gnss_data_quality_report
