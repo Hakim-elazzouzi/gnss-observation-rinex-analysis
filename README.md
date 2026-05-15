@@ -1,4 +1,4 @@
-# 🛰️ GNSS Observation RINEX Analysis
+# GNSS Observation RINEX Analysis
 
 > **A series of 8 independent Python projects analysing raw GNSS observations  
 > from a RINEX 3.05 file — from single-satellite pseudorange to multipath characterisation.**
@@ -13,7 +13,7 @@
 
 ---
 
-## 📖 About This Repository
+## About This Repository
 
 Modern GNSS receivers produce **RINEX observation files** — standardised text files
 containing raw measurements from every satellite the receiver can see. This repository
@@ -27,7 +27,7 @@ functions in `shared/utils/gnss_utils.py`.
 
 ---
 
-## 📡 The RINEX File
+## The RINEX File
 
 ```
 data/AUCK00NZL_R_20260010000_01D_30S_MO.rnx
@@ -47,7 +47,7 @@ data/AUCK00NZL_R_20260010000_01D_30S_MO.rnx
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 GNSS-Observation-RINEX/
@@ -75,7 +75,7 @@ GNSS-Observation-RINEX/
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 | # | Project | Key Observables | Plots |
 |---|---------|----------------|-------|
@@ -90,7 +90,7 @@ GNSS-Observation-RINEX/
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 ```bash
@@ -124,7 +124,7 @@ jupyter notebook project1_single_gps_satellite.py
 
 ---
 
-## 🔧 Shared Utilities
+## Shared Utilities
 
 All projects can import from `shared/utils/gnss_utils.py`:
 
@@ -149,7 +149,7 @@ from gnss_utils import (
 
 ---
 
-## 📐 GNSS Observables Reference
+## GNSS Observables Reference
 
 | Code | Description | Unit |
 |------|-------------|------|
@@ -171,7 +171,7 @@ from gnss_utils import (
 
 ---
 
-## 🔬 Key GNSS Equations
+## Key GNSS Equations
 
 ```
 Pseudorange:     P = ρ + c(dT−dt) + I + T + εP
@@ -184,7 +184,7 @@ Sidereal shift:  Δt = 24h − 23h56m4.1s ≈ 3m56s per solar day
 
 ---
 
-## 🌐 Next Repository
+## Next Repository
 
 **Coming next:** `GNSS-Navigation-RINEX` — a companion series analysing  
 GNSS navigation (broadcast ephemeris) files: satellite positions, clock corrections,  
@@ -192,13 +192,13 @@ orbit visualisation, and positioning with navigation data.
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
 
 ---
 
-## ⭐ If this helped you
+## If this helped you
 
 If you found this project useful for your own GNSS work or studies,  
-please consider leaving a ⭐ on GitHub — it helps others find the series!
+please consider leaving a star (⭐) on GitHub — it helps others find the series!
