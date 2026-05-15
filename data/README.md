@@ -1,4 +1,4 @@
-# 📂 data/
+# data/
 
 This folder contains the shared RINEX 3 observation file used by all 8 projects.
 
